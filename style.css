@@ -23,6 +23,41 @@
   overflow-x: hidden;
   height: auto;
 }
+@font-face {
+  font-family: "Graphik Web";
+  src: url("Graphik-Black-Web.woff2") format("woff2"),
+    url("Graphik-Black-Web.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("Graphik-Bold-Web.woff2") format("woff2"),
+    url("Graphik-Bold-Web.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("Graphik-Semibold-Web.woff2") format("woff2"),
+    url("Graphik-Semibold-Web.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("Graphik-Regular-Web.woff2") format("woff2"),
+    url("Graphik-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
 
 html {
   background: var(--tertiary-color);
@@ -47,7 +82,7 @@ section {
 }
 
 * {
-  font-family: "Graphik", Helvetica, sans-serif;
+  font-family: "Graphik Web", Helvetica, sans-serif;
   box-sizing: border-box;
   color: var(--quaternary-color);
 }
@@ -74,7 +109,7 @@ label.normal {
 }
 
 input[type="text"] {
-  font-family: "Graphik";
+  font-family: "Graphik Web", Helvetica, sans-serif;
   font-weight: 400;
   letter-spacing: 0px;
   height: calc(5.6 * var(--spacing-unit));
