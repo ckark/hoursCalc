@@ -25,44 +25,39 @@
 }
 @font-face {
   font-family: "Graphik Web";
-  src: url("Graphik-Black-Web.woff2") format("woff2"),
-    url("Graphik-Black-Web.woff") format("woff");
+  src: url(Graphik-Black-Web.woff2) format("woff2"),
+    url(Graphik-Black-Web.woff) format("woff");
   font-weight: 800;
   font-style: normal;
   font-stretch: normal;
 }
-
 @font-face {
   font-family: "Graphik Web";
-  src: url("Graphik-Bold-Web.woff2") format("woff2"),
-    url("Graphik-Bold-Web.woff") format("woff");
+  src: url(Graphik-Bold-Web.woff2) format("woff2"),
+    url(Graphik-Bold-Web.woff) format("woff");
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
 }
-
 @font-face {
   font-family: "Graphik Web";
-  src: url("Graphik-Semibold-Web.woff2") format("woff2"),
-    url("Graphik-Semibold-Web.woff") format("woff");
+  src: url(Graphik-Semibold-Web.woff2) format("woff2"),
+    url(Graphik-Semibold-Web.woff) format("woff");
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
 }
-
 @font-face {
   font-family: "Graphik Web";
-  src: url("Graphik-Regular-Web.woff2") format("woff2"),
-    url("Graphik-Regular-Web.woff") format("woff");
+  src: url(Graphik-Regular-Web.woff2) format("woff2"),
+    url(Graphik-Regular-Web.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
 }
-
 html {
   background: var(--tertiary-color);
 }
-
 body {
   margin: 0;
   -webkit-user-select: none;
@@ -70,7 +65,6 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
-
 section {
   width: calc(10 * var(--spacing-pct));
   grid-area: main;
@@ -80,25 +74,21 @@ section {
   justify-content: center;
   margin: calc(2.4 * var(--spacing-unit)) 0;
 }
-
 * {
   font-family: "Graphik Web", Helvetica, sans-serif;
   box-sizing: border-box;
   color: var(--quaternary-color);
 }
-
 h3 {
   font-weight: 700;
   font-size: calc(4 * var(--font-size));
   margin: calc(0.8 * var(--spacing-unit)) 0;
 }
-
 h6 {
   font-weight: 700;
   font-size: calc(2.4 * var(--font-size));
   margin: calc(2.4 * var(--spacing-unit)) 0;
 }
-
 label.normal {
   font-size: calc(1.4 * var(--font-size));
   font-weight: 800;
@@ -107,11 +97,10 @@ label.normal {
   letter-spacing: 1.08px;
   margin: 32px 0 8px 0;
 }
-
 input[type="text"] {
   font-family: "Graphik Web", Helvetica, sans-serif;
   font-weight: 400;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   height: calc(5.6 * var(--spacing-unit));
   width: calc(48 * var(--spacing-unit));
   font-size: calc(1.8 * var(--font-size));
@@ -122,7 +111,7 @@ input[type="text"] {
   transition: all 0.25s ease-in-out;
 }
 input[type="text"]:focus {
-  outline: none;
+  outline: 0;
   border-bottom: none;
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
@@ -130,7 +119,6 @@ input[type="text"]:focus {
   background: rgba(64, 153, 248, 0.125);
   border-radius: calc(0.8 * var(--spacing-unit));
 }
-
 .error {
   position: relative;
   -webkit-animation: shake 0.3s linear;
@@ -138,13 +126,11 @@ input[type="text"]:focus {
   -webkit-animation-iteration-count: 3;
   animation-iteration-count: 3;
 }
-
 .shake {
   -webkit-animation: shake 0.4s 1 linear;
   -moz-animation: shake 0.4s 1 linear;
   -o-animation: shake 0.4s 1 linear;
 }
-
 @-webkit-keyframes shake {
   0% {
     -webkit-transform: translate(calc(1.6 * var(--spacing-unit)));
@@ -170,7 +156,6 @@ input[type="text"]:focus {
     width: calc(9 * var(--spacing-pct));
     margin: calc(1.6 * var(--spacing-unit));
   }
-
   input[type="text"] {
     min-width: none;
     width: calc(10 * var(--spacing-pct));
