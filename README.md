@@ -1,8 +1,9 @@
 # hoursCalc
 
-hoursCalc is a quick way of estimating your availability each quarter based on holidays and any vacation days you take. 
+hoursCalc is a quick way of estimating your availability each quarter based on holidays and any vacation days you take.
 
 The formula powering the algorithm works as follows:
+
 ```
 /* fixed variables */
 const weeks = 12; // weeks in an average quarter
