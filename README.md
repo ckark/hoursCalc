@@ -22,4 +22,4 @@ const availability = () => ((weeks * hours) - ((weeks * hours) * nonDeepWork)) -
 availability(); // n available hours this quarter
 ```
 
-Try it out on [JSBin](https://jsbin.com/zamama/edit?js,console).
+[Try it out](https://ckark.github.io/hoursCalc/).
