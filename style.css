@@ -27,7 +27,7 @@
 @font-face {
   font-family: "Graphik Web";
   src: url(Graphik-Black-Web.woff2) format("woff2"),
-    url(Graphik-Black-Web.woff) format("woff");
+	url(Graphik-Black-Web.woff) format("woff");
   font-weight: 800;
   font-style: normal;
   font-stretch: normal;
@@ -36,7 +36,7 @@
 @font-face {
   font-family: "Graphik Web";
   src: url(Graphik-Bold-Web.woff2) format("woff2"),
-    url(Graphik-Bold-Web.woff) format("woff");
+	url(Graphik-Bold-Web.woff) format("woff");
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
@@ -45,7 +45,7 @@
 @font-face {
   font-family: "Graphik Web";
   src: url(Graphik-Semibold-Web.woff2) format("woff2"),
-    url(Graphik-Semibold-Web.woff) format("woff");
+	url(Graphik-Semibold-Web.woff) format("woff");
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -54,7 +54,7 @@
 @font-face {
   font-family: "Graphik Web";
   src: url(Graphik-Regular-Web.woff2) format("woff2"),
-    url(Graphik-Regular-Web.woff) format("woff");
+	url(Graphik-Regular-Web.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -149,33 +149,33 @@ input[type="text"]:focus {
 
 @-webkit-keyframes shake {
   0% {
-    -webkit-transform: translate(calc(1.6 * var(--spacing-unit)));
+	-webkit-transform: translate(calc(1.6 * var(--spacing-unit)));
   }
   20% {
-    -webkit-transform: translate(calc(-1.6 * var(--spacing-unit)));
+	-webkit-transform: translate(calc(-1.6 * var(--spacing-unit)));
   }
   40% {
-    -webkit-transform: translate(calc(0.8 * var(--spacing-unit)));
+	-webkit-transform: translate(calc(0.8 * var(--spacing-unit)));
   }
   60% {
-    -webkit-transform: translate(calc(-0.8 * var(--spacing-unit)));
+	-webkit-transform: translate(calc(-0.8 * var(--spacing-unit)));
   }
   80% {
-    -webkit-transform: translate(calc(0.4 * var(--spacing-unit)));
+	-webkit-transform: translate(calc(0.4 * var(--spacing-unit)));
   }
   100% {
-    -webkit-transform: translate(calc(0 * var(--spacing-unit)));
+	-webkit-transform: translate(calc(0 * var(--spacing-unit)));
   }
 }
 
 @media screen and (max-width: 767px) {
   section {
-    width: calc(9 * var(--spacing-pct));
-    margin: calc(1.6 * var(--spacing-unit));
+	width: calc(9 * var(--spacing-pct));
+	margin: calc(1.6 * var(--spacing-unit));
   }
   input[type="text"] {
-    min-width: none;
-    width: calc(10 * var(--spacing-pct));
-    font-size: calc(1.4 * var(--font-size));
+	min-width: none;
+	width: calc(10 * var(--spacing-pct));
+	font-size: calc(1.4 * var(--font-size));
   }
 }
